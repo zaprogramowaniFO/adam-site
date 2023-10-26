@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: black;
+    background-image: url("./background-photo.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.main {
+    background-color: white;
+    width: 630px;
+    border-radius: 15px;
+}
+
+.card {
+    display: flex;
+}
+
+.hero__image {
+    margin-right: 40px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 219px;
+    height: 320px;
+    object-fit: cover;
+}
+
+.hero__info {
+    margin-top: 30px;
+}
+
+.hero__name {
+    font-size: 36px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.hero__status {
+    font-size: 16px;
+    margin: 0;
+    color: #EE6400;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.hero__description {
+    width: 330px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    line-height: 150%;
+}
+
+.media__description {
+    margin: 0;
+    font-style: italic;
+    color: 545454;
+}
+
+.media__links {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding-right: 10px;
+    cursor: pointer;
+    color: #EE6400;
+}
+
+li:hover {
+    color: black;
+}
+
